@@ -23,6 +23,8 @@ jobs:
   build:
     name: Build Website
     runs-on: ubuntu-latest
+    env:
+      BASE_URL: /bike-hub/
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
