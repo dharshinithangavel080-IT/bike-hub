@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowRight, SlidersHorizontal, Calendar, Zap, ShieldCheck } from 'lucide-react';
 import { AudioRevControl } from './AudioRevControl';
+import { heroFlagshipImg } from '../data/bikes';
 
 interface HeroProps {
   onOpenTestRide: () => void;
@@ -101,7 +102,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenTestRide, onOpenConfigurator }
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 shadow-2xl group">
               <img
-                src="/src/assets/images/hero_superbike_flagship_1791195636041.jpg"
+                src={heroFlagshipImg}
                 alt="Apex Corsa 1199 RR Track Flagship Superbike"
                 referrerPolicy="no-referrer"
                 className="w-full aspect-[16/10] object-cover object-center group-hover:scale-[1.02] transition-transform duration-700"

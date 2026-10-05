@@ -1,4 +1,10 @@
 import { Bike } from '../types';
+import heroFlagshipImg from '../assets/images/hero_superbike_flagship_1791195636041.jpg';
+import hypernakedImg from '../assets/images/bike_hypernaked_street_1791195654112.jpg';
+import adventureImg from '../assets/images/bike_adventure_tourer_1791195668231.jpg';
+import electricImg from '../assets/images/bike_electric_superbike_1791195685961.jpg';
+
+export { heroFlagshipImg, hypernakedImg, adventureImg, electricImg };
 
 export const BIKES: Bike[] = [
   {
@@ -9,7 +15,7 @@ export const BIKES: Bike[] = [
     tagline: 'Pure aerodynamic velocity and race-bred Desmo engineering',
     description: 'Developed in wind tunnels and refined on championship circuits. The Apex Corsa 1199 RR combines a 998cc Stradale V4 powerplant with bi-plane carbon winglets producing 38 kg of downforce at 160 mph. Fitted with Öhlins Smart EC 2.0 semi-active suspension and Brembo Stylema R monobloc calipers.',
     basePrice: 26400,
-    image: '/src/assets/images/hero_superbike_flagship_1791195636041.jpg',
+    image: heroFlagshipImg,
     inStock: true,
     featured: true,
     specs: {
@@ -61,7 +67,7 @@ export const BIKES: Bike[] = [
     tagline: 'Raw visceral street presence and torque on tap from 2,500 RPM',
     description: 'Stripped of fairings and unapologetic in its stance. The Nemesis 1200 exposes its bronze trellis frame and massive twin cylinder power unit. Wide tapered aluminum handlebars and upright ergonomics deliver precision control whether cutting through metropolitan canyons or carving alpine passes.',
     basePrice: 19800,
-    image: '/src/assets/images/bike_hypernaked_street_1791195654112.jpg',
+    image: hypernakedImg,
     inStock: true,
     featured: true,
     specs: {
@@ -113,7 +119,7 @@ export const BIKES: Bike[] = [
     tagline: 'Cross continents, conquer gravel trails, and ride without limits',
     description: 'Engineered for the long overland route. Featuring dynamic electronic damping that continually recalculates surface conditions 100 times per second. Equipped with an ergonomic heated comfort saddle, electric touring windscreen, and high-tensile spoke tubeless wheels ready for rough backcountry expeditions.',
     basePrice: 22500,
-    image: '/src/assets/images/bike_adventure_tourer_1791195668231.jpg',
+    image: adventureImg,
     inStock: true,
     featured: true,
     specs: {
@@ -165,7 +171,7 @@ export const BIKES: Bike[] = [
     tagline: 'Instant 170 Nm torque, zero emissions, and near-silent hypersonic pull',
     description: 'The future of high-performance two-wheel propulsion. The Apex Volt 1000 utilizes liquid-cooled axial flux motors delivering instantaneous peak torque from zero RPM with no gearbox shifting required. Integrated DC Fast Charging delivers 20% to 80% state of charge in just 15 minutes at standard CCS2 stations.',
     basePrice: 28900,
-    image: '/src/assets/images/bike_electric_superbike_1791195685961.jpg',
+    image: electricImg,
     inStock: true,
     featured: true,
     specs: {
