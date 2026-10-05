@@ -1,0 +1,6 @@
+{
+  "name": "Apex Moto Works | Premier Motorcycle Showroom",
+  "description": "Experience performance engineering. Explore the 2026 fleet of superbikes, hypernakeds, adventure tourers, and electric sport motorcycles. Book VIP test rides, customize specs, and calculate financing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
